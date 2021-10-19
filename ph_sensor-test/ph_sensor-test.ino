@@ -29,5 +29,5 @@ void loop()
     float voltage = 5 / adc_resolution * measurings/samples;
     Serial.print("pH= ");
     Serial.println(ph(voltage));
-    delay(3000);
+    delay(500);
 }
