@@ -53,8 +53,8 @@ void loop()
   ADC_Voltage = uint32_t(VREF) * ADC_Raw / ADC_RES;
 
   Serial.print("Temperaturet:\t" + String(Temperaturet) + "\t");
-  Serial.print("ADC RAW:\t" + String(ADC_Raw) + "\t");
-  Serial.print("ADC Voltage:\t" + String(ADC_Voltage) + "\t");
+//  Serial.print("ADC RAW:\t" + String(ADC_Raw) + "\t");
+//  Serial.print("ADC Voltage:\t" + String(ADC_Voltage) + "\t");
   Serial.println("DO:\t" + String(readDO(ADC_Voltage, Temperaturet)) + "\t");
 
   delay(1000);
