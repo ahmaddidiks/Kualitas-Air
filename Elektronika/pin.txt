@@ -1,0 +1,4 @@
+Sensor Temperature D2
+sensor turbidity A1
+sensor PH A0
+sensor Oksigen A2
